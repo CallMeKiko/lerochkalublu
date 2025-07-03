@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy birthday</title>
+    <link rel="stylesheet" type="text/css" href="leralubly.css">
+    <link src="/fonts/" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <audio id="myAudio" src="/images/deti.mp3" preload="auto"></audio>
+      <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const audio = document.getElementById('myAudio');
+      audio.volume = 0.5;
+
+      audio.play().catch(() => {
+        const btn = document.createElement('button');
+        btn.innerText = 'Нажми кнопку, чтобы началась музыка <3';
+        btn.style.fontSize = '20px';
+        btn.style.borderRadius = "15px";
+        btn.style.color = "#A36098"
+        btn.style.position = 'fixed';
+        btn.style.top = '20px';
+        btn.style.left = '50%';
+        btn.style.transform = 'translateX(-50%)';
+        btn.style.zIndex = '1000';
+        btn.onclick = () => {
+          audio.play();
+          btn.remove(); // удаляем кнопку после запуска
+        };
+        document.body.appendChild(btn);
+      });
+    });
+  </script>
+  <div class="wrapper">
+  <div class="fade-in" style="animation-delay: 3s">
+    Солнышко мое, вот и настал твой день рождения! Тебе исполняется 17 лет, целый год, он правда был незабываемым..
+  </div>
+  
+  <div class="fade-in" style="animation-delay: 5s">
+    Детка, Хотел бы показать как сильно ты изменилась, какой ты была, какой стала
+  </div>
+<div class="fade-in" style="animation-delay: 7s">
+    <img src="/images/lera01.webp" alt="картинка" class="img-inline">
+    <p class="fade-in" style="animation-delay: 9s">Удивительно! Какая ты тут юная, милая, яркая , добродушная девочка... Даже не верится как сильно ты изменилась..</p>
+</div>
+<div class="fade-in" style="animation-delay: 11s">Перед тем, как посмотреть как сильно ты изменилась, какой красивой и неотразимой ты стала, я бы хотел поздравить тебя</div>
+<div class="fade-in" style="animation-delay: 13s">Солнышко мое любимое, вот тебе уже 17 лет, честно, такая большая цифра, но это ведь не просто цифра любимая моя, это новые обязанности, возможности, новое мнение других о тебе, Я правда рад расти вместе с тобой котик мой, не только в моральном и физическом плане, с тобой я стал добрее, с твоей ласковой и нежной любовью, своей прекрасной добротой, своими чувствами ты меняешь не только меня, ты меняешь все окружение, всех, все что есть рядом с тобой становится прекраснее и красивее, детка, прошу всегда оставайся такой же милой, доброй, красивой, хорошей и привлекательной зайка моя, обещаю что всегда буду с тобой, с буду каждый твой день рожденье рядом милая моя, сегодня твой день, сегодня ты звезда, моя любовь менялась к тебе во все промежутки наших отношений, в том смысле что она лишь крепчала, и я был более уверен что заберу тебя от всего мира, что ты будешь лишь моей... Мы вместе прошли так много всего зайка, да были трудности в наших отношениях, были и легкие времена, но всегда мы были вместе зайка, все потому что ты самая лучшая, самая-самая.</div>
+<div class="fade-in" style="animation-delay: 15s">Ну вот и пришел момент, когда мы увидим как сильно ты изменилась, какой невероятной ты стала..</div>
+<div class="fade-in" style="animation-delay: 17s"><img src="/images/12dad.jpg"></div>
+<div class="fade-in" style="animation-delay: 19s">Вот, вот какая ты красивая и невероятная, люблю тебя!</div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+    background-image: url("gifoboi.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+.card {
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 15px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 1.5s ease forwards;
+  background-color: #FAAEC0;
+  width: fit-content;
+  font-size: x-large;
+}
+.fade-in:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.wrapper {
+  margin-top: 100px;
+  margin-left: 5px;
+}
+.d-flex{
+    font-style: Monstserrat;
+   background: rgba(255, 255, 255, 0.7);
+   width: 650px;
+   font-size: x-large;
+   border-top-right-radius: 17px;
+   border-bottom-right-radius: 17px;
+   border-top-left-radius: 17px;
+}
+.smori{
+   background-color: #FAAEC0;
+   width: 500px;
+   font-size: x-large;
+   border-bottom-right-radius: 17px;
+}
+.Firs{
+  background-color: #FAAEC0;
+    font-size: x-large;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: fit-content;
+}
+.text-image-wrapper {
+  display: flex;
+  align-items: center; /* выравнивание по вертикали */
+  gap: 10px; /* расстояние между текстом и картинкой */
+}
+
+.textt {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 15px;
+  margin: 0;
+  border-radius: 15px;
+    font-size: x-large;
+}
+
+.img-inline {
+  width: 250x; /* укажи нужный размер */
+  height: auto;
+  margin-top: 15px;
+    border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+}
+.boba {
+  background-color: #FAAEC0;
+    font-size: x-large;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 20px;
+    width: fit-content;
+}
+.buba {
+      background: rgba(255, 255, 255, 0.7);
+    font-size: x-large;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 20px;
+        width: fit-content;
+    border-radius: 15px;
+}
+.lastwords{
+          background-color: #FAAEC0;
+    font-size: x-large;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 20px;
+        width: fit-content;
+    border-radius: 15px;
+}
+
+.img{
+    width: 187px ; /* укажи нужный размер */
+  height: auto;
+  margin-top: 15px;
+    border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.lerochka{
+    background: rgba(255, 255, 255, 0.7);
+    font-size: x-large;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 20px;
+        width: fit-content;
+    border-radius: 15px;  
+}
